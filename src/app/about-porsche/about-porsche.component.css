@@ -1,0 +1,20 @@
+
+.more-info{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.info-sections{
+  display: flex;
+  justify-content: space-around;
+}
+
+.section img{
+  height: 180px;
+  border-radius: 8px;
+}
+
+.divisor{
+  height: 5px;
+  background-color: black;
+}
