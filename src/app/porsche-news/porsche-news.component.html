@@ -1,4 +1,4 @@
-<br> <br> <br>
+<!-- <br> <br> <br>
 <div class="information">
   <div class="car">
     <img src="/ElectricMacan.png" alt="Macan eléctrico">
@@ -12,4 +12,12 @@
     <img src="PorscheMobil1.png" alt="Mobil 1 Supercup">
     <p>Porsche Mobil 1 Supercup.</p>
   </div>
-</div> <br>
+</div> <br> -->
+<div class="information">
+  <div *ngFor="let title of titles" class="car">
+    <br> <br> <br>
+    <img src="{{title.src}}" alt="{{title.alt}}">
+    <p>{{title.title}}</p>
+    <br> <br>
+  </div>
+</div>
